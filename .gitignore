@@ -5,7 +5,18 @@ site/node_modules/
 
 # Misc
 MazyOS/
-*.png
-*.mp4
 .DS_Store
 .env*.local
+
+# Arquivos de mídia na raiz (não versionados)
+/*.png
+/*.mp4
+/Logotipo*.png
+/favicon*.png
+/logotipo*.png
+/costela*.mp4
+/frango*.mp4
+/fogo*.mp4
+/linguiça*.mp4
+/MAIONESE*.mp4
+/ChatGPT*.png
