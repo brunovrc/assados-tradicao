@@ -1,0 +1,11 @@
+# Next.js
+site/.next/
+site/out/
+site/node_modules/
+
+# Misc
+MazyOS/
+*.png
+*.mp4
+.DS_Store
+.env*.local
