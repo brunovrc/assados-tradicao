@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Instagram, MapPin } from "lucide-react"
 import WhatsAppIcon from "@/components/WhatsAppIcon"
+import { withBase } from "@/lib/basePath"
 
 const WA    = "https://wa.me/5544991361672?text=Oi%2C%20quero%20fazer%20um%20pedido!"
 const INSTA = "https://instagram.com/assados.tradicao.maringa"
@@ -16,7 +17,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-4">
             <Image
-              src="/logo.png"
+              src={withBase("/logo.png")}
               alt="Assados Tradição"
               width={56}
               height={56}

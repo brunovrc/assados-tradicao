@@ -258,7 +258,7 @@ export default function Hero() {
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             >
               <Image
-                src="/logo-sem-fundo.png"
+                src={withBase("/logo-sem-fundo.png")}
                 alt="Assados Tradição"
                 width={520}
                 height={520}
